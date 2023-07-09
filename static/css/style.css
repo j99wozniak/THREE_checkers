@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+select {
+    background-color: grey;
+    height: 30px;
+    border: 3px solid purple;
+    position: absolute;
+    z-index: 10;
+}
+
+#info {
+    background-color: grey;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    border: 3px solid purple;
+    position: absolute;
+    left: 120px;
+    z-index: 10;
+}
+
+#root {
+    position: absolute;
+}
+
+.block{
+    position:absolute;
+    z-index: 8;
+    background-color: rgb(71, 71, 71);
+    opacity: 0.7;
+}
+
+.text {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    color: rgb(24, 3, 24);
+    font-size: 30px;
+}
+
+.option {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    left: 175px;
+    background-color: rgb(117, 117, 117);
+    border: 5px solid rgb(121, 59, 146);
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(102, 0, 102);
+    font-size: 30px;
+}
+
+.loadImage{
+    background-image: url("../mats/load.png");
+    width:100px;
+    height:100px;
+    background-size: contain;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+.logdiv {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(117, 117, 117);
+    border: 5px solid rgb(146, 0, 204);
+    border-radius: 100px;
+    z-index: 10;
+}
+
+#bDel {
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#bLog:hover {
+    background-color: purple;
+    color: white;
+}
+
+#bDel:hover {
+    background-color: purple;
+    color: white;
+}
